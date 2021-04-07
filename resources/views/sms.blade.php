@@ -7,7 +7,7 @@
 <div id="modal_overlay" class="hidden absolute inset-0 bg-black bg-opacity-30 h-screen w-full flex justify-center items-start md:items-center pt-10 md:pt-0">
 
 <!-- modal -->
-<div id="modal" class="pacity-0 transform -translate-y-full scale-150  relative w-10/12 md:w-1/2 h-1/2 md:h-3/4 bg-white rounded shadow-lg transition-opacity transition-transform duration-300">
+<div id="modal" class="pacity-0 transform -translate-y-full scale-150  relative w-10/12 md:w-1/2  bg-white rounded shadow-lg transition-opacity transition-transform duration-300">
 
     <!-- button close -->
     {{-- <button
@@ -29,7 +29,7 @@
         <textarea class="form-textarea mt-1 mb-2 block w-full" rows="3" maxlength="160" name="body" id="body"  placeholder="Πληκτρολογήστε εδώ το μήνυμά σας."></textarea>
 
         @error('body') <p class="text-red-500 bottom-8">{{ "Το πεδίο μηνύματος είναι απαραίτητο." }}</p>@enderror
-        <div id = "count" class="text-right p-0.5 pb-6 text-sm">
+        <div id = "count" class="text-left p-0.5 pb-6 text-sm">
 
             <span id="current">0</span>
     <span id="maximum">/ 160</span>
