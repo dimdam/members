@@ -110,7 +110,9 @@ class MemberController extends Controller
     {
 
 
-        $body_array = $this->validate($request, ['body' => 'required']);
+        // $body_array = $this->validate($request, ['body' => 'required,max:160']);
+        $body_array = $request->validate(['body' => 'required|max:160']);
+
         $body_imploded = implode(" ", $body_array);
 
         function uc_without_accents($body_imploded, $enc = "utf-8")
