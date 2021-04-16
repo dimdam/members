@@ -31,8 +31,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/', Dashboard::class)->name('dashboard');
-
-
     Route::patch('/members/{id}', 'App\Http\Controllers\MemberController@renew');
     Route::get('/members/create', 'App\Http\Controllers\MemberController@create');
     Route::get('/elections-first-step', Scrutineerpick::class);
