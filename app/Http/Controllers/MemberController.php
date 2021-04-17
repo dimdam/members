@@ -115,20 +115,10 @@ class MemberController extends Controller
 
         $body_imploded = implode(" ", $body_array);
 
-        function uc_without_accents($body_imploded, $enc = "utf-8")
-        {
-            return strtr(
-                mb_strtoupper($body_imploded, $enc),
-                array(
-                    'Ά' => 'Α', 'Έ' => 'Ε', 'Ί' => 'Ι', 'Ή' => 'Η', 'Ύ' => 'Υ',
-                    'Ό' => 'Ο', 'Ώ' => 'Ω', 'A' => 'A', 'A' => 'A', 'A' => 'A', 'A' => 'A',
-                    'Y' => 'Y', 'ΐ' => 'Ϊ'
-                )
-            );
-        }
+
 
         $body = uc_without_accents($body_imploded);
-        // dd($body);
+         dd($body);
         $members = DB::table('members')
             ->where(['paid_membership' => true])
             ->whereNotNull('phone_number')->get();
