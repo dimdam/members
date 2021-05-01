@@ -42,7 +42,7 @@ Go to the project directory
   cd project-folder
 ```
 
-Configure the .env file with your DB credentials an then migrate the database
+Configure the .env file with your DB credentials and then migrate the database
 
 ```bash
 php artisan migrate 
