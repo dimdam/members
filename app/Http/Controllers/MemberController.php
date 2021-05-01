@@ -118,7 +118,7 @@ class MemberController extends Controller
 
 
         $body = uc_without_accents($body_imploded);
-         dd($body);
+        //  dd($body);
         $members = DB::table('members')
             ->where(['paid_membership' => true])
             ->whereNotNull('phone_number')->get();

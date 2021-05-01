@@ -68,12 +68,11 @@ class Member extends Component
     }
     public function save()
     {
-        // $this->paid_membership = ['paid_membership' => true];
-        $valitadedData = ['paid_membership' => true];
+        $validatedData = ['paid_membership' => true];
 
-        $valitadedData = $this->validate();
+        $validatedData = $this->validate();
 
-        ModelsMember::create($valitadedData);
+        ModelsMember::create($validatedData);
         //    dd($valitadedData);
 
         $this->closeModal();

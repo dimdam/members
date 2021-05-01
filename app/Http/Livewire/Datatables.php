@@ -79,16 +79,6 @@ class Datatables extends Component
         $this->dispatchBrowserEvent('alert',
 
          ['type' => 'success',  'message' => 'Επιτυχής Ανανέωση Συνδρομής!']);
-    //     $this->alert('info', 'Hello World!', [
-    //         'position' =>  'top-end',
-    //         'timer' =>  3000,
-    //         'toast' =>  true,
-    //         'text' =>  'jhnb',
-    //         'confirmButtonText' =>  'Ok',
-    //         'cancelButtonText' =>  'Cancel',
-    //         'showCancelButton' =>  false,
-    //         'showConfirmButton' =>  false,
-    //   ]);
 
 
 
@@ -96,17 +86,7 @@ class Datatables extends Component
     }
 
 
-    // public function delete($id)
 
-    // {
-
-    //     if ($id) {
-
-    //         Member::where('id', $id)->delete();
-
-    //         session()->flash('message', 'Users Deleted Successfully.');
-    //     }
-    // }
 
 
     public function updatingSearch()
@@ -114,15 +94,7 @@ class Datatables extends Component
         $this->resetPage();
     }
 
-    // public function alertSuccess()
 
-    // {
-
-    //     $this->dispatchBrowserEvent('alert',
-
-    //             ['type' => 'success',  'message' => 'User Created Successfully!']);
-
-    // }
 
     public function sortBy($field)
     {
