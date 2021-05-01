@@ -5,7 +5,9 @@ A simple app to keep track of members for a local club . The administrator
 can create or update members and their subscriptions,and notify them via sms using Nexmo API.
 
 
-![Logo]<img src="https://user-images.githubusercontent.com/7516919/116776196-cea5db80-aa6f-11eb-8ed8-a9dfc6abc900.png" width="45%">
+<img src="https://user-images.githubusercontent.com/7516919/116776196-cea5db80-aa6f-11eb-8ed8-a9dfc6abc900.png" width="45%">
+
+
 ## Features
 
 - Create/Update Members
