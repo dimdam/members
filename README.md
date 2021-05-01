@@ -28,4 +28,31 @@ through Nexmo dashboard.
 
 `NEXMO_SECRET=`
 
+## Run Locally
+
+Clone the project
+
+```bash
+ git clone git@github.com:dimdam/members.git
+```
+
+Go to the project directory
+
+```bash
+  cd project-folder
+```
+
+Configure the .env file with your DB credentials an then migrate the database
+
+```bash
+php artisan migrate 
+```
+
+Start the server
+
+```bash
+
+php artisan serve
+
+```
   
