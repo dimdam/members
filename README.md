@@ -1,4 +1,10 @@
 
+# Deprecated
+This version is obsolete.
+The new version is here: https://github.com/dimdam/members
+
+
+
 # Members Offline Subscription Management
 
 A simple app to keep track of members for a local club . The administrator
