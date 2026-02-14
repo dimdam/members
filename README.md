@@ -1,14 +1,24 @@
 # Members Suite (2026 Refresh)
 
-Modernized member management and elections system for the Πολιτιστικός & Μορφωτικός Σύλλογος Αγίου Βλασίου Πηλίου.
+Modernized member management and elections system for a local cultural association.
 
-## What Changed (2026 Refresh)
-- Upgraded to Laravel 12 with modern dependency stack
-- Full UI/UX refresh (login, navbar, dashboard, datatables, elections, print)
-- Membership renewal logic aligned with “previous year” rule
-- Elections flow updated (eligibility, scrutineer vs board separation)
+## Highlights
+- Laravel 12 upgrade with a modern dependency stack
+- Full UI/UX refresh (login, navbar, dashboard, data tables, elections, print)
+- Membership renewal logic aligned with the “previous year” rule
+- Elections flow updated (eligibility and scrutineer vs board separation)
 - Print ballot layout redesigned
 - Build pipeline migrated to Vite
+
+## Screens
+![Dashboard](docs/images/dashboard.png)
+Dashboard overview with quick actions and member statistics.
+
+![Login](docs/images/login.png)
+Modernized login experience with a clean, focused layout.
+
+![Data Tables](docs/images/datatables.png)
+Membership management table with status badges and renewal actions.
 
 ## Requirements
 - PHP 8.2+ (tested with 8.4)
