@@ -62,3 +62,6 @@ php artisan serve
 
 ```
   
+# Deprecated
+This legacy version is obsolete.
+The current version is here: https://github.com/dimdam/members
