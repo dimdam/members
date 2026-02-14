@@ -1,0 +1,34 @@
+<x-app-layout>
+    <x-slot name="header">
+
+    </x-slot>
+
+    <div class="min-h-screen min-w-screen flex items-center justify-center bg-gray-100">
+        <div class="flex flex-col px-6 py-4 bg-white shadow-lg">
+            <h1 class="mb-8 text-gray-800 leading-6">Παρακαλώ επιλέξτε:</h1>
+            <ul class="flex flex-col space-y-4 text-gray-900">
+                <a href="/members">
+                    <div
+                        class="bg-white text-blue-500 border-2 border-blue-500 hover:bg-blue-500 hover:text-white rounded-md w-full px-6 py-4 ">
+                        Γενική Εικόνα Συνδρομών</div>
+                </a>
+                <a href="/members/create">
+                    <div
+                        class="bg-white text-blue-500 border-2 border-blue-500 hover:bg-blue-500 hover:text-white rounded-md w-full px-6 py-4 ">
+                        Προσθήκη Νέου Μέλους</div>
+                </a>
+                <a href="#">
+                    <div
+                        class="bg-white text-blue-500 border-2 border-blue-500 hover:bg-blue-500 hover:text-white rounded-md w-full px-6 py-4 ">
+                        Εκλογές</div>
+                </a>
+                <a href="/">
+                    <div
+                        class="bg-white text-blue-500 border-2 border-blue-500 hover:bg-blue-500 hover:text-white rounded-md w-full px-6 py-4 " wire:click='message'>
+                        Αποστολή Μηνύματος</div>
+                </a>
+                <ul>
+                    <div>
+                    </div>
+
+</x-app-layout>
