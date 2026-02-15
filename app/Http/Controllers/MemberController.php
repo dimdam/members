@@ -95,6 +95,17 @@ class MemberController extends Controller
         return view('print', compact('members', 'date'));
     }
 
+    public function resetElections()
+    {
+        Member::query()->update([
+            'is_a_candidate' => false,
+            'is_a_scrutineer_candidate' => false,
+        ]);
+
+        return redirect()->route('dashboard')
+            ->with('status', 'Η λίστα υποψηφίων μηδενίστηκε.');
+    }
+
 
     public function sms()
     {

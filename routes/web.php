@@ -32,6 +32,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/elections-first-step', Scrutineerpick::class);
     Route::get('/elections-second-step', Candidatepick::class);
     Route::get('/print', [MemberController::class, 'print']);
+    Route::post('/elections/reset', [MemberController::class, 'resetElections'])->name('elections.reset');
     Route::get('/members', [MemberController::class, 'index']);
     Route::redirect('/sms', '/');
     Route::post('/sendsms', [MemberController::class, 'sendSMS']);
