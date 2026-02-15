@@ -16,7 +16,7 @@
                                     clip-rule="evenodd"></path>
                             </svg>
                         </div>
-                        <input wire:model="search" id="search"
+                        <input wire:model.live="search" id="search"
                             class="block w-full pl-10 pr-3 py-2.5 border border-slate-200 rounded-xl leading-5 bg-white placeholder-slate-400 focus:outline-none focus:border-slate-700 focus:ring-2 focus:ring-slate-200 sm:text-sm transition"
                             placeholder="Αναζήτηση μέλους" type="search">
                     </div>

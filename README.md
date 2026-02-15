@@ -62,4 +62,4 @@ php artisan serve --host 0.0.0.0 --port 8000
 - Active membership is determined by the last renewal year (previous year rule).
 
 ## Legacy
-If you need the previous version, use the `legacy/old-version` branch.
+If you need the previous version, use the `https://https://github.com/dimdam/members/tree/legacy/old-version` branch.

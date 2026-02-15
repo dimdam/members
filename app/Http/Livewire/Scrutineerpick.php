@@ -19,7 +19,7 @@ class Scrutineerpick extends Component
     public $sortAsc = true;
     public $confirmation;
     protected $queryString = [
-
+        'search',
         'sortAsc',
         'sortField'
     ];
@@ -81,6 +81,11 @@ class Scrutineerpick extends Component
         }
 
         $this->sortField = $field;
+    }
+
+    public function updatingSearch()
+    {
+        $this->resetPage();
     }
     public function render()
     {

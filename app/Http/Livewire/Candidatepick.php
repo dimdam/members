@@ -19,6 +19,7 @@ class Candidatepick extends Component
     public $sortAsc = true;
     public $confirmation;
     protected $queryString = [
+        'search',
         'sortAsc',
         'sortField'
     ];
@@ -78,6 +79,11 @@ class Candidatepick extends Component
         }
 
         $this->sortField = $field;
+    }
+
+    public function updatingSearch()
+    {
+        $this->resetPage();
     }
     public function render()
     {

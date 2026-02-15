@@ -7,7 +7,7 @@
                         <x-application-logo class="h-6 w-6 fill-current text-white" />
                     </div>
                     <div class="hidden sm:block">
-                        <div class="text-sm font-semibold text-slate-900">Members Suite</div>
+                        <div class="text-sm font-semibold text-slate-900">Σουίτα Μελών</div>
                         <div class="text-xs text-slate-500">Σύλλογος Αγ. Βλασίου Πηλίου</div>
                     </div>
                 </a>
